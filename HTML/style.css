@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+
+.book-box{
+  background-image: url(asset/pexels-freestockpro-1003864.jpg);
+height: 400px;
+width: 100%;
+background-position: center;
+background-size: cover;
+padding: 0 80px ;
+
+}
+    
+
+.box-book {
+  height: 00px;
+  width: 1400px;
+  margin-top: 50px;
+  padding-top: 55px;
+  padding-left: 20px;
+}
+h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ padding-left: 300px;
+ font-style: italic;
+ font-size: 40PX;
+ 
+ color: rgba(0, 0, 255, 0.447);
+
+}
+button {
+  background-color: #fff;
+  height: 40px;
+  width: 150px;
+  border: none;
+  margin-top: 40px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.hotel-book {
+  height: 40px;
+  width: 150px;
+  background-color: rgba(32, 197, 197, 0);
+}
+.blue {
+  margin-left: 35px;
+  background-color: rgba(60, 60, 190, 0.267);
+  height: 250px;
+  width: 1100px;
+}
+.location {
+  height: 60px;
+  width: 200px;
+}
+button:hover {
+  background-color: rgba(60, 60, 190, 0.267);
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 0px;
+  padding-left: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: -10px;
+}
+.fa-solid {
+  margin-top: 55px;
+  float: left;
+  font-size: 30px;
+  color: #fff;
+}
+.align {
+  display: flex;
+}
+.Date2 {
+  height: 60px;
+  width: 150px;
+}
+.Date {
+  height: 60px;
+  width: 180px;
+  margin-left: 50px;
+  border-right: solid 1px black;
+}
+.lets {
+  height: 50px;
+  width: 120px;
+  margin-left: 900px;
+  margin-top: 0px;
+}
+.box {
+  height: 300px;
+  width: 1300px;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #fff;
+  margin-top: 5px;
+  
+}
+
+.Dubai {
+  background-image: url(asset/pexels-apasaric-823696.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.barcelona {
+  background-image: url(asset/pexels-apasaric-1386444.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-left: 100px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column
+
+}
+.Paris {
+  background-image: url(asset/pexels-leica-palma-818954161-19368818.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.lets:hover {
+  background-color: gold;
+}
+.footer {
+  background-color: rgba(18, 18, 139, 0.779);
+  list-style: none;
+  display: flex;
+  margin-top: 100px;
+}
+.footer-col {
+  color: white;
+  margin-top: 30px;
+  font-size: x-large;
+  display: inline-block;
+  padding-left: -20;
+  
+  margin-left: 140px;
+}
+.footer-col ul li{
+list-style: none;
+}
+
+@media (min-width: 500px) {
+  .transparent {
+    width: 700px;
+    margin: 0 0;
+  }
+  
+  
+  .blue {
+    width: 300px;
+   margin-left: -60px;
+  }
+  button {
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 8px;
+  }
+ h2{
+  font-size: 2px;
+
+
+ }
+ .fa-solid{
+  width: 30px;
+  height: 30px;
+ }
+ .location  {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+ }
+  .location button{
+    height: 30px;
+    width: 100px;
+  }
+  .hotel-book{
+    height: 30px;
+    width: 60px;
+    margin-left: -0px;
+    font-size: 8px;
+  }
+  
+  .box{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 600px;
+  }
+  .barcelona{
+    height: 1500px;
+    width:600px;
+    margin-left: 0px;
+  }
+  .Paris{
+    height: 1500px;
+    width:600px;
+  }
+
+  .Dubai{
+    height: 1500px;
+    width:600px;
+   
+  }
+  
+  p {
+    font-size: xx-small;
+  }
+  h2 {
+    font-size: 10px;
+  }
+  .footer {
+    background-color: rgba(18, 18, 139, 0.779);
+    list-style: none;
+    
+   
+  }
+h3{
+  font-size: 20px;
+  padding-left:70px ;
+}
+  .footer-col {
+    color: white;
+    margin-top: 30px;
+    font-size: 5px;
+    display: flex;
+    height: 150px;
+ margin-left: 5px;
+  }
+  .footer-col li{
+    font-size: small;
+  }
+}
